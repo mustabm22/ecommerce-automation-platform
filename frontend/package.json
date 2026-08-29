@@ -1,0 +1,43 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "تطبيق ويب منصة التجارة الإلكترونية",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.0.0",
+    "axios": "^1.4.0",
+    "stripe": "^1.43.0",
+    "redux": "^4.2.0",
+    "react-redux": "^8.1.0",
+    "redux-thunk": "^2.4.2",
+    "antd": "^5.0.0",
+    "@ant-design/icons": "^5.0.0",
+    "react-icons": "^4.8.0",
+    "formik": "^2.2.9",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@types/react": "^18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
